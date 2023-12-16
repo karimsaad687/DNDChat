@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A6671EE2B113DC10076D464 /* chatsModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A99282B0D679E0061246D /* chatsModule.framework */; };
+		8A6671EF2B113DC10076D464 /* chatsModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A99282B0D679E0061246D /* chatsModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A6671F12B113DC20076D464 /* DNDCorePackage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A992A2B0D679E0061246D /* DNDCorePackage.framework */; };
+		8A6671F22B113DC20076D464 /* DNDCorePackage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A992A2B0D679E0061246D /* DNDCorePackage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A6671F32B113DC30076D464 /* DNDResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A992C2B0D679E0061246D /* DNDResources.framework */; };
+		8A6671F42B113DC30076D464 /* DNDResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A992C2B0D679E0061246D /* DNDResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A6671F52B113DC50076D464 /* NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A992E2B0D679E0061246D /* NetworkLayer.framework */; };
+		8A6671F62B113DC50076D464 /* NetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A992E2B0D679E0061246D /* NetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A6671F72B113DC60076D464 /* PhotoLibraryMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A99302B0D679E0061246D /* PhotoLibraryMedia.framework */; };
+		8A6671F82B113DC60076D464 /* PhotoLibraryMedia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7A99302B0D679E0061246D /* PhotoLibraryMedia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A7A99332B0D69B00061246D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A7A99322B0D69B00061246D /* GoogleService-Info.plist */; };
 		8A7B33FF2AF964720069A49D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B33FE2AF964720069A49D /* AppDelegate.swift */; };
 		8A7B34012AF964720069A49D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B34002AF964720069A49D /* SceneDelegate.swift */; };
 		8A7B34032AF964720069A49D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7B34022AF964720069A49D /* ViewController.swift */; };
-		8A7B34062AF964720069A49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B34042AF964720069A49D /* Main.storyboard */; };
 		8A7B34082AF964740069A49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B34072AF964740069A49D /* Assets.xcassets */; };
 		8A7B340B2AF964740069A49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7B34092AF964740069A49D /* LaunchScreen.storyboard */; };
+		AC869CEEA9DFD09EAC2565EE /* Pods_DNDChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC40F0EFA6833EED2A348C8 /* Pods_DNDChat.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8A6671F02B113DC10076D464 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8A6671EF2B113DC10076D464 /* chatsModule.framework in Embed Frameworks */,
+				8A6671F62B113DC50076D464 /* NetworkLayer.framework in Embed Frameworks */,
+				8A6671F82B113DC60076D464 /* PhotoLibraryMedia.framework in Embed Frameworks */,
+				8A6671F22B113DC20076D464 /* DNDCorePackage.framework in Embed Frameworks */,
+				8A6671F42B113DC30076D464 /* DNDResources.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8A4A560C2B0FDFA9001BCDF3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A4A560E2B0FE031001BCDF3 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6671E82B0FF1FF0076D464 /* MarqueeLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MarqueeLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7A99282B0D679E0061246D /* chatsModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = chatsModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7A992A2B0D679E0061246D /* DNDCorePackage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DNDCorePackage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7A992C2B0D679E0061246D /* DNDResources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DNDResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7A992E2B0D679E0061246D /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7A99302B0D679E0061246D /* PhotoLibraryMedia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PhotoLibraryMedia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7A99322B0D69B00061246D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8A7B33FB2AF964720069A49D /* DNDChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNDChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7B33FE2AF964720069A49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A7B34002AF964720069A49D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A7B34022AF964720069A49D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8A7B34052AF964720069A49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A7B34072AF964740069A49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A7B340A2AF964740069A49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A7B340C2AF964740069A49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A22FEB320331D293930E14 /* Pods-DNDChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNDChat.debug.xcconfig"; path = "Target Support Files/Pods-DNDChat/Pods-DNDChat.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC40F0EFA6833EED2A348C8 /* Pods_DNDChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNDChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7BF8D8BF3575F9D17669A4 /* Pods-DNDChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNDChat.release.xcconfig"; path = "Target Support Files/Pods-DNDChat/Pods-DNDChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A6671EE2B113DC10076D464 /* chatsModule.framework in Frameworks */,
+				8A6671F12B113DC20076D464 /* DNDCorePackage.framework in Frameworks */,
+				8A6671F72B113DC60076D464 /* PhotoLibraryMedia.framework in Frameworks */,
+				8A6671F52B113DC50076D464 /* NetworkLayer.framework in Frameworks */,
+				8A6671F32B113DC30076D464 /* DNDResources.framework in Frameworks */,
+				AC869CEEA9DFD09EAC2565EE /* Pods_DNDChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A7A99272B0D679E0061246D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A6671E82B0FF1FF0076D464 /* MarqueeLabel.framework */,
+				8A4A560E2B0FE031001BCDF3 /* SwiftyJSON.framework */,
+				8A4A560C2B0FDFA9001BCDF3 /* SwiftyJSON.framework */,
+				8A7A99282B0D679E0061246D /* chatsModule.framework */,
+				8A7A992A2B0D679E0061246D /* DNDCorePackage.framework */,
+				8A7A992C2B0D679E0061246D /* DNDResources.framework */,
+				8A7A992E2B0D679E0061246D /* NetworkLayer.framework */,
+				8A7A99302B0D679E0061246D /* PhotoLibraryMedia.framework */,
+				9AC40F0EFA6833EED2A348C8 /* Pods_DNDChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A7B33F22AF964720069A49D = {
 			isa = PBXGroup;
 			children = (
 				8A7B33FD2AF964720069A49D /* DNDChat */,
 				8A7B33FC2AF964720069A49D /* Products */,
+				8A7A99272B0D679E0061246D /* Frameworks */,
+				A2F0F14AED265F00396B4C18 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +120,24 @@
 		8A7B33FD2AF964720069A49D /* DNDChat */ = {
 			isa = PBXGroup;
 			children = (
+				8A7A99322B0D69B00061246D /* GoogleService-Info.plist */,
 				8A7B33FE2AF964720069A49D /* AppDelegate.swift */,
 				8A7B34002AF964720069A49D /* SceneDelegate.swift */,
 				8A7B34022AF964720069A49D /* ViewController.swift */,
-				8A7B34042AF964720069A49D /* Main.storyboard */,
 				8A7B34072AF964740069A49D /* Assets.xcassets */,
 				8A7B34092AF964740069A49D /* LaunchScreen.storyboard */,
 				8A7B340C2AF964740069A49D /* Info.plist */,
 			);
 			path = DNDChat;
+			sourceTree = "<group>";
+		};
+		A2F0F14AED265F00396B4C18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96A22FEB320331D293930E14 /* Pods-DNDChat.debug.xcconfig */,
+				EA7BF8D8BF3575F9D17669A4 /* Pods-DNDChat.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A7B340F2AF964740069A49D /* Build configuration list for PBXNativeTarget "DNDChat" */;
 			buildPhases = (
+				E5AC904FF798A8EF6231AACE /* [CP] Check Pods Manifest.lock */,
 				8A7B33F72AF964720069A49D /* Sources */,
 				8A7B33F82AF964720069A49D /* Frameworks */,
 				8A7B33F92AF964720069A49D /* Resources */,
+				8A6671F02B113DC10076D464 /* Embed Frameworks */,
+				68E0DE357EC40F9601DF95A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +202,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A7B340B2AF964740069A49D /* LaunchScreen.storyboard in Resources */,
+				8A7A99332B0D69B00061246D /* GoogleService-Info.plist in Resources */,
 				8A7B34082AF964740069A49D /* Assets.xcassets in Resources */,
-				8A7B34062AF964720069A49D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68E0DE357EC40F9601DF95A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNDChat/Pods-DNDChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNDChat/Pods-DNDChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNDChat/Pods-DNDChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5AC904FF798A8EF6231AACE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DNDChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A7B33F72AF964720069A49D /* Sources */ = {
@@ -147,14 +265,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8A7B34042AF964720069A49D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A7B34052AF964720069A49D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8A7B34092AF964740069A49D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,17 +397,22 @@
 		};
 		8A7B34102AF964740069A49D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A22FEB320331D293930E14 /* Pods-DNDChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WPBS42K72A;
+				DEVELOPMENT_TEAM = 948X4P5J2H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DNDChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,8 +420,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.DNDChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deshNdez.kareem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,17 +431,22 @@
 		};
 		8A7B34112AF964740069A49D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7BF8D8BF3575F9D17669A4 /* Pods-DNDChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WPBS42K72A;
+				DEVELOPMENT_TEAM = 948X4P5J2H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DNDChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,8 +454,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.DNDChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deshNdez.kareem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DNDChat.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../DNDProject/DNDCorePackage/DNDCorePackage.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../DNDProject/DNDResources/DNDResources.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../DNDProject/NetworkLayer/NetworkLayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../DNDProject/PhotoLibraryMedia/PhotoLibraryMedia.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../DNDProject/chatsModule/chatsModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
